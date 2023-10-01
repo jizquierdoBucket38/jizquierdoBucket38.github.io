@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Juan Ignacio</title>
+    <meta name="description" content="portafolio de Juani" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#menu").click(function () {
+          $("header nav ul").toggleClass("open");
+        });
+        $("header ul a").click(function () {
+          $("header nav ul").toggleClass("open");
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="#;" id="menu"></a>
+
+        <ul>
+          <li><a href="#inicio">inicio</a></li>
+          <li><a href="#educacion">educación</a></li>
+          <li><a href="#experiencia">experiencia</a></li>
+          <li><a href="#portafolio">portafolio</a></li>
+        </ul>
+      </nav>
+      <figure><img src="assets/images/fotoperfil.jpg" alt="Juani" /></figure>
+      <div class="titulo">
+        <h1>CV Juan Ignacio Castro Izquierdo</h1>
+      </div>
+    </header>
+
+    <section id="inicio">
+      <div class="contenedor">
+        <div class="columna">
+          <h2>Juan Castro Izquierdo</h2>
+          <p class="subtitulo">Kinesiologo e Ing. en Robotica</p>
+          <p>
+            Con mas de 10 años de esperiencia profesional en el area de la salud
+            y 3 años en la Robotica.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="educacion">
+      <div class="contenedor">
+        <div class="columna">
+          <h3>educación</h3>
+          <p>
+            Kinesiologo licenciado en kinesiologia , ademas de de ser Ing. en
+            Robotica
+          </p>
+          <ul>
+            <li>Kinesiologo Titulado de la Universidad Andres Bello</li>
+            <li>
+              Ingeniero en Robotica titulado de la Universidad Andres Bello
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiencia">
+      <div class="contenedor">
+        <div class="columna">
+          <h3>Experiencia</h3>
+          <p>
+            <ul>
+				<li>Kinesiologo en Hospital San Borja Arriaran  Marzo 2013 - Marzo 2018</li>
+				<li>Ingeniero de proyectos TEVA Febrero 2019 - Actualidad</li>
+			</ul>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="portafolio">
+      <div class="contenedor">
+        <div class="borde">
+          <h3>Portafolio</h3>
+        </div>
+        <div class="columna">
+          <p>
+            Proyectos Realizados en BootCamp Desafio Latam
+          </p>
+        </div>
+        <ul>
+          <li id="img1">
+            <a href="#guitars">
+              <figure>
+                <img src="assets/images/guitars.png" alt="Classic Guitars" />
+              </figure>
+              <h4>Classic Guitars</h4>
+            </a>
+            <a href="#img1" class="lightbox" id="guitars">
+              <span
+                style="background-image: url('assets/images/guitars.png')"
+              ></span>
+            </a>
+          </li>
+          <li id="img2">
+            <a href="#iguanas">
+              <figure>
+                <img src="assets/images/iguanas.png" alt="Iguanas" />
+              </figure>
+              <h4>Iguanas</h4>
+            </a>
+            <a href="#img2" class="lightbox" id="iguanas">
+              <span
+                style="background-image: url('assets/images/iguanas.png')"
+              ></span>
+            </a>
+          </li>
+          <li id="img3">
+            <a href="#cuppon">
+              <figure>
+                <img src="assets/images/cuppon.png" alt="Cuppon" />
+              </figure>
+              <h4>Cuppon</h4>
+            </a>
+            <a href="#img3" class="lightbox" id="cuppon">
+              <span
+                style="background-image: url('assets/images/cuppon.png')"
+              ></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <p>Copyright © 2023 Juan Ignacio Castro Izquierdo</p>
+      <p><a href="https://es-la.facebook.com/">facebook</a></p>
+    </footer>
+  </body>
+</html>
