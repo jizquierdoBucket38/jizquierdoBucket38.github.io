@@ -270,6 +270,15 @@ section h3 {
   text-decoration: none;
 }
 
+
+
+/** HOVER */
+
+#portafolio .contenedor ul li:hover {
+  opacity: 0.5;
+}
+
+
 /** LIGHTBOX MARKUP **/
 
 #portafolio .contenedor .lightbox {
